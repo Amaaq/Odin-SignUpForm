@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #1a2f4b;
+    display: flex;
+    height: 100vh;
+}
+h1 {
+    font-family: 'Bungee Inline', cursive;
+}
+.container {
+    width: 75%;
+    margin: 0 auto;
+    background-color: rgb(216, 222, 224);
+    display: flex;
+    
+}
+.left {
+    background-image: url(images/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    color: white;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+}
+.logo-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    gap: 5px;
+    font-size: 20px;
+    background-color: rgb(39, 32, 32,0.5);
+}
+.logo {
+    width: 70px;
+}
+.credit {
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+}
+.credit span {
+    text-decoration: underline;
+}
+
+.right {
+   flex: 3;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.right > p {
+    padding-left: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+form {
+    margin-top: 10px;
+}
+.fieldset {
+    padding: 10px 30px 20px 30px;
+    border: none;
+    background-color: white;
+}
+.doit {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.inputs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+/* .input {
+    width: 30%;
+} */
+label, input {
+    display: block;
+}
+label {
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+input {
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+    outline: none;
+    height: 20px;
+    margin-top: 2px;
+    width: 200px;
+}
+input:focus {
+    border-color: lightblue;
+}
+button {
+    background-color:#596D48 ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.login {
+    padding-left: 30px;
+    font-size: 14px;
+    margin-top: 30px;
+    font-weight: 700;
+}
+.login span {
+    color: #596D48;
+}
